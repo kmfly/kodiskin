@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
- <addon id="skin.destiny" name="Destiny.KM" version="1.0.0" provider-name="KM">
+ <addon id="skin.destiny" name="Destiny.KM" version="1.0.1" provider-name="KM">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0"/>
 		<import addon="script.favourites" version="7.1.1"/>
@@ -16,17 +16,15 @@
 		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml"/>
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary lang="en">This skin was made and designed by Jugger/KM modified it to increase the completeness.</summary>
-		<summary lang="ko_KR">데스트니 스킨 수정및 기능향상 by KM</summary>
-		<summary lang="de">Skin Destiny von Jugger</summary>
-		<description lang="en">The skin modification has done by KM</description>
-		<description langlang="ko_KR">데스트니 스킨 수정및 기능향상 by KM</description>
-		<description lang="de">Der Skin Destiny ist ein schlicht gehaltener aber Moderner Skin auf Basis der LG WebOS Oberfläche.[CR]Support gibt es unter http://www.kodinerds.net</description>
-		<disclaimer lang="en">no official skin use at your own risk.</disclaimer>
+		<summary lang="en">Destiny Skin by KM</summary>
+		<summary lang="ko_KR">데스트니 스킨 by KM</summary>
+		<description lang="en">Destiny Skin by KM</description>
+		<description langlang="ko_KR">데스트니 스킨 by KM</description>
+		<disclaimer lang="en"></disclaimer>
 		<platform>all</platform>
 		<license>Creative Commons Attribution-ShareAlike 3.0.</license>
-		<forum>https://www.kodinerds.net/index.php/Board/129-Destiny/</forum>
-		<source>https://github.com/kodinerds/repo/tree/master/skin.destiny</source>
+		<forum>https://cafe.naver.com/mk802</forum>
+		<source>https://github.com/kmfly/kodiskin.git</source>
 		<assets>
 			<icon>resources/icon.png</icon>
 			<fanart>resources/fanart.jpg</fanart>
