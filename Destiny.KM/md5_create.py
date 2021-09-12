@@ -16,8 +16,8 @@ def save_md5file(filename, data):
         fp.write(data)
 
 
-in_filename = 'addons.xml'
-out_filename = '.\\addon.xml.md5'
+in_filename = '.\\addon_list.xml'
+out_filename = '.\\addon_list.xml.md5'
 
 md5text = create_md5(in_filename)
 print(md5text)
