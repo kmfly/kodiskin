@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
- <addon id="Destiny.KM" name="KM repository for Kodi Skin" version="5.0.1" provider-name="KM">
+ <addon id="skin.destiny.km" name="KM repository for Kodi Skin" version="5.0.1" provider-name="KM">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0"/>
 		<import addon="script.favourites" version="7.1.1"/>
