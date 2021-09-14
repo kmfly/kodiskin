@@ -18,13 +18,13 @@
 	<extension point="xbmc.addon.metadata">
 		<summary lang="en">Destiny Skin by KM</summary>
 		<summary lang="ko_KR">데스트니 스킨 by KM</summary>
-		<description lang="en">The skin modification has done by KM</description>
+		<description lang="en">Destiny Skin by KM</description>
 		<description lang="ko_KR">데스트니 스킨 by KM</description>
-		<disclaimer lang="en">No official skin use at your own risk.</disclaimer>
+		<disclaimer lang="en">Life is life!</disclaimer>
 		<platform>all</platform>
 		<license>Creative Commons Attribution-ShareAlike 3.0.</license>
-		<forum>https://www.kodinerds.net/index.php/Board/129-Destiny/</forum>
-		<source>https://github.com/kodinerds/repo/tree/master/skin.destiny</source>
+		<forum>https://cafe.naver.com/mk802</forum>
+		<source>https://github.com/kmfly/kodiskin</source>
 		<assets>
 			<icon>resources/icon.png</icon>
 			<fanart>resources/fanart.jpg</fanart>
