@@ -28,14 +28,14 @@
 		<assets>
 			<icon>resources/icon.png</icon>
 			<fanart>resources/fanart.jpg</fanart>
-			<screenshot>resources/1.png</screenshot>
-			<screenshot>resources/2.png</screenshot>
-			<screenshot>resources/3.png</screenshot>
-			<screenshot>resources/4.png</screenshot>
-			<screenshot>resources/5.png</screenshot>
-			<screenshot>resources/6.png</screenshot>
-			<screenshot>resources/7.png</screenshot>
-			<screenshot>resources/8.png</screenshot>
+			<screenshot>resources/1.jpg</screenshot>
+			<screenshot>resources/2.jpg</screenshot>
+			<screenshot>resources/3.jpg</screenshot>
+			<screenshot>resources/4.jpg</screenshot>
+			<screenshot>resources/5.jpg</screenshot>
+			<screenshot>resources/6.jpg</screenshot>
+			<screenshot>resources/7.jpg</screenshot>
+			<screenshot>resources/8.jpg</screenshot>
 		</assets>
 	</extension>
 </addon>
