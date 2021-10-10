@@ -8,6 +8,7 @@ https://docs.google.com/document/d/1xrOyDcS2YE00tlfAmPEK4I5NjYv5DIkKzWMcOgoo_RE/
 ## 영화 추가
 https://docs.google.com/document/d/11gQJvzy1AjFQKGwvoq8XFgG1iUDshcp6-wKO1Z2JzhY/edit?usp=sharing
 ## TV쇼 추가
+https://docs.google.com/document/d/1-poIFnt9mflg3sEvyVujGZ-jNqYV-VrjAMcrHSKxEcI/edit?usp=sharing
 ## OTT 추가
 ## 음악 추가
 ## 사진 추가
