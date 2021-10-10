@@ -15,4 +15,5 @@ https://docs.google.com/document/d/1yk66GgpgExRG91I4CsRNVWvB_5UQ0_S1mB5ZFk2epwA/
 ## 사진 추가
 ## Skin 업데이트
 https://docs.google.com/document/d/16qtgY9t59l5gkPrLMf-Farlwza9yR24EAmNjLVd00To/edit?usp=sharing
-
+## 스킨관련 질문
+https://github.com/kmfly/kodiskin/issues
