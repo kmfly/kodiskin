@@ -4,6 +4,7 @@ https://docs.google.com/document/d/1Q2WdCi5_J2DnyxlBFScxzWgS_LX39pbGzkjf4loOueg/
 ### Plexkodiconnect 설치(PMS only)
 https://docs.google.com/document/d/19UDowaVHWsmBDK1_va5Vms2N8Ba0K6QrlvhiwkNVFkA/edit?usp=sharing
 ## Skin 설정
+https://docs.google.com/document/d/1xrOyDcS2YE00tlfAmPEK4I5NjYv5DIkKzWMcOgoo_RE/edit?usp=sharing
 ## 영화 추가
 ## TV쇼 추가
 ## OTT 추가
