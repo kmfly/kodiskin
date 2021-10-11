@@ -2,6 +2,10 @@
 * * *
 ## 업데이트및 버그수정 History
 https://docs.google.com/document/d/1pK82y8BtrmPqkVC68QVTXP629ysjmD4JW_MfRx05bgk/edit?usp=sharing
+* * *
+## 스킨관련 질문
+https://github.com/kmfly/kodiskin/issues
+* * *
 ## Kodi 설치(저장소 추가및 스킨 설치)
 https://docs.google.com/document/d/1Q2WdCi5_J2DnyxlBFScxzWgS_LX39pbGzkjf4loOueg/edit?usp=sharing
 ### Plexkodiconnect 설치(PMS only)
@@ -18,5 +22,4 @@ https://docs.google.com/document/d/1yk66GgpgExRG91I4CsRNVWvB_5UQ0_S1mB5ZFk2epwA/
 ## 사진 추가
 ## Skin 업데이트
 https://docs.google.com/document/d/16qtgY9t59l5gkPrLMf-Farlwza9yR24EAmNjLVd00To/edit?usp=sharing
-## 스킨관련 질문
-https://github.com/kmfly/kodiskin/issues
+
