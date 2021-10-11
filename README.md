@@ -2,7 +2,6 @@
 * * *
 ## 업데이트및 버그수정 History
 https://docs.google.com/document/d/1pK82y8BtrmPqkVC68QVTXP629ysjmD4JW_MfRx05bgk/edit?usp=sharing
-
 ## Kodi 설치(저장소 추가및 스킨 설치)
 https://docs.google.com/document/d/1Q2WdCi5_J2DnyxlBFScxzWgS_LX39pbGzkjf4loOueg/edit?usp=sharing
 ### Plexkodiconnect 설치(PMS only)
