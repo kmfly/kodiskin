@@ -1,41 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-	<addon id="skin.destiny.km" name="KM.Destiny" version="2.0.2" provider-name="KM">
-	<requires>
-		<import addon="xbmc.gui" version="5.15.0"/>
-	    <import addon="service.upnext" version="1.1.5+matrix.1"/>
-		<import addon="script.embuary.helper" version="2.0.8"/>
-		<import addon="plugin.video.themoviedb.helper" version="0.0.1"/>
-		<import addon="plugin.video.youtube" version="6.8.17+matrix.1"/>
-	</requires>
-	<extension point="xbmc.gui.skin" debugging="false">
-		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml"/>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Destiny Skin by KM</summary>
-		<summary lang="ko_KR">데스트니 스킨 by KM</summary>
-		<description lang="en">Destiny Skin by KM</description>
-		<description lang="ko_KR">데스트니 스킨 by KM</description>
-		<disclaimer lang="en">Life is life!</disclaimer>
-		<platform>all</platform>
-		<license>Creative Commons Attribution-ShareAlike 3.0.</license>
-		<forum>https://cafe.naver.com/mk802</forum>
-		<source>https://github.com/kmfly/kodiskin</source>
-		<assets>
-			<icon>resources/icon.png</icon>
-			<fanart>resources/fanart.jpg</fanart>
-			<screenshot>resources/1.jpg</screenshot>
-			<screenshot>resources/2.jpg</screenshot>
-			<screenshot>resources/3.jpg</screenshot>
-			<screenshot>resources/4.jpg</screenshot>
-			<screenshot>resources/5.jpg</screenshot>
-			<screenshot>resources/6.jpg</screenshot>
-			<screenshot>resources/7.jpg</screenshot>
-			<screenshot>resources/8.jpg</screenshot>
-		</assets>
-	</extension>
-</addon>
-<addon id="skin.destiny.km" name="KM.Destiny" version="2.0.1" provider-name="KM">
+	<addon id="skin.destiny.km" name="KM.Destiny" version="2.0.1" provider-name="KM">
 	<requires>
 		<import addon="xbmc.gui" version="5.15.0"/>
 	    <import addon="service.upnext" version="1.1.5+matrix.1"/>
