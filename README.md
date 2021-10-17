@@ -16,7 +16,7 @@ https://docs.google.com/document/d/1xrOyDcS2YE00tlfAmPEK4I5NjYv5DIkKzWMcOgoo_RE/
 https://docs.google.com/document/d/11gQJvzy1AjFQKGwvoq8XFgG1iUDshcp6-wKO1Z2JzhY/edit?usp=sharing
 ## TV쇼 보기모드 설정
 https://docs.google.com/document/d/1-poIFnt9mflg3sEvyVujGZ-jNqYV-VrjAMcrHSKxEcI/edit?usp=sharing
-## OTT(넷플릭스,왓챠,웨이브,티빙,쿠팡라이브,카카오TV 외..)
+## OTT 애드온(넷플릭스,왓챠,웨이브,티빙,쿠팡라이브,카카오TV 외..)
 https://docs.google.com/document/d/1yk66GgpgExRG91I4CsRNVWvB_5UQ0_S1mB5ZFk2epwA/edit?usp=sharing
 ## 음악 추가
 ## 사진 추가
