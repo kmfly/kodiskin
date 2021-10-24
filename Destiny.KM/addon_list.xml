@@ -6,7 +6,6 @@
 		<import addon="service.upnext" version="1.1.5+matrix.1" />
 		<import addon="script.embuary.helper" version="2.0.8" />
 		<import addon="script.globalsearch" version="9.0.5" />
-		<import addon="script.skin.helper.service" version="1.1.38"/>
 		<import addon="plugin.video.themoviedb.helper" version="0.0.1" />
 		<import addon="plugin.video.youtube" version="6.8.17+matrix.1" />
 
