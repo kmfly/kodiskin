@@ -29,17 +29,11 @@
 			<forum>https://cafe.naver.com/mk802</forum>
 			<source>https://github.com/kmfly/kodiskin</source>
 			<assets>
-				<icon>resources/icon.jpg</icon>
+				<icon>resources/icon.png</icon>
 				<fanart>resources/fanart.jpg</fanart>
 				<screenshot>resources/1.jpg</screenshot>
 				<screenshot>resources/2.jpg</screenshot>
-				<screenshot>resources/3.jpg</screenshot>
-				<screenshot>resources/4.jpg</screenshot>
-				<screenshot>resources/5.jpg</screenshot>
-				<screenshot>resources/6.jpg</screenshot>
-				<screenshot>resources/7.jpg</screenshot>
-				<screenshot>resources/8.jpg</screenshot>
-				<screenshot>resources/9.jpg</screenshot>
+				<screenshot>resources/3.jpg</screenshot>				
 			</assets>
 		</extension>
 	</addon>
