@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addons>
+	<addon id="skin.estuary.km" version="0.0.1" name="skin.estuary.km" provider-name="KM">
+		<requires>
+			<import addon="xbmc.gui" version="5.16.0"/>
+			<import addon="plugin.video.youtube" version="7.0.1"/>
+			<import addon="script.embuary.info" version="2.0.8"/>
+			<import addon="script.embuary.helper" version="2.0.8"/>
+			<import addon="plugin.video.themoviedb.helper" version="4.10.14"/>
+		</requires>
+		<extension point="xbmc.gui.skin" debugging="false">
+			<res width="1920" height="1440" aspect="4:3" default="false" folder="xml" />
+			<res width="1920" height="1280" aspect="3:2" default="false" folder="xml" />
+			<res width="1920" height="1200" aspect="16:10" default="false" folder="xml" />
+			<res width="2040" height="1080" aspect="17:9" default="false" folder="xml" />
+			<res width="1920" height="1080" aspect="16:9" default="true" folder="xml" />
+			<res width="2560" height="1080" aspect="21:9" default="false" folder="xml" />
+			<res width="2338" height="1080" aspect="19.5:9" default="false" folder="xml" />
+			<res width="2160" height="1080" aspect="18:9" default="false" folder="xml" />
+		</extension>
+		<extension point="xbmc.addon.metadata">
+			<summary lang="en">Embuary Skin by KM</summary>
+			<summary lang="ko_KR">Embuary 스킨 by KM</summary>
+			<description lang="en">Embuary Skin by KM</description>
+			<description lang="ko_KR">Embuary 스킨 by KM</description>
+			<disclaimer lang="en">Life is life!</disclaimer>
+			<platform>all</platform>
+			<license>Creative Commons Attribution-ShareAlike 3.0.</license>
+			<forum>https://cafe.naver.com/mk802</forum>
+			<source>https://github.com/kmfly/kodiskin</source>
+			<assets>
+				<icon>resources/icon.jpg</icon>
+				<fanart>resources/fanart.jpg</fanart>
+				<screenshot>resources/1.jpg</screenshot>
+				<screenshot>resources/2.jpg</screenshot>
+				<screenshot>resources/3.jpg</screenshot>
+				<screenshot>resources/4.jpg</screenshot>
+				<screenshot>resources/5.jpg</screenshot>
+				<screenshot>resources/6.jpg</screenshot>
+				<screenshot>resources/7.jpg</screenshot>
+				<screenshot>resources/8.jpg</screenshot>
+				<screenshot>resources/9.jpg</screenshot>
+			</assets>
+		</extension>
+	</addon>
+</addons>
