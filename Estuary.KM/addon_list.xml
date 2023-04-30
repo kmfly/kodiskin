@@ -3,7 +3,7 @@
 	<addon id="skin.estuary.km" version="0.0.3" name="skin.estuary.km" provider-name="KM">
 		<requires>
 			<import addon="xbmc.gui" version="5.16.0"/>
-			<import addon="plugin.video.youtube" version="7.0.2~alpha5"/>
+			<import addon="plugin.video.youtube" version="7.0.2"/>
 			<import addon="script.embuary.info" version="2.0.8"/>
 			<import addon="script.embuary.helper" version="2.0.8"/>
 			<import addon="plugin.video.themoviedb.helper" version="4.10.14"/>
