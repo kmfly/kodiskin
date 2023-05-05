@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-	<addon id="skin.estuary.km" version="0.0.3" name="skin.estuary.km" provider-name="KM">
+	<addon id="skin.estuary.km" version="0.0.4" name="skin.estuary.km" provider-name="KM">
 		<requires>
 			<import addon="xbmc.gui" version="5.16.0"/>
 			<import addon="plugin.video.youtube" version="7.0.1"/>
@@ -28,11 +28,16 @@
 			<license>Creative Commons Attribution-ShareAlike 3.0.</license>
 			<source>https://github.com/kmfly/kodiskin</source>
 			<assets>
-				<icon>resources/icon.png</icon>
-				<fanart>resources/fanart.jpg</fanart>
-				<screenshot>resources/1.JPG</screenshot>
-				<screenshot>resources/2.JPG</screenshot>
-				<screenshot>resources/3.JPG</screenshot>				
+				<icon>resources/icon.png</icon>          
+				<fanart>resources/fanart.png</fanart>
+				<screenshot>resources/1.png</screenshot>
+				<screenshot>resources/2.png</screenshot>
+				<screenshot>resources/3.png</screenshot>
+				<screenshot>resources/4.png</screenshot>
+				<screenshot>resources/5.png</screenshot>
+				<screenshot>resources/6.png</screenshot>
+				<screenshot>resources/7.png</screenshot>
+				<screenshot>resources/8.png</screenshot>					
 			</assets>
 		</extension>
 	</addon>	
