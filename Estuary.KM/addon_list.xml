@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-	<addon id="skin.estuary.km" version="0.0.8" name="skin.estuary.km" provider-name="KM">
+	<addon id="skin.estuary.km" version="0.1.0" name="skin.estuary.km" provider-name="KM">
 		<requires>
 			<import addon="xbmc.gui" version="5.16.0"/>
 			<import addon="plugin.video.youtube" version="7.0.1"/>
@@ -19,10 +19,10 @@
 			<res width="2160" height="1080" aspect="18:9" default="false" folder="xml" />
 		</extension>
 		<extension point="xbmc.addon.metadata">
-			<summary lang="en">Estuary Skin by KM - KODI 20.0</summary>
-			<summary lang="ko_KR">Estuary 스킨 by KM - KODI 20.0</summary>
-			<description lang="en">Estuary Skin modified by KM - KODI 20.0</description>
-			<description lang="ko_KR">Estuary 스킨 수정 by KM - KODI 20.0</description>
+			<summary lang="en">Estuary Skin by KM - KODI 20.2</summary>
+			<summary lang="ko_KR">Estuary 스킨 by KM - KODI 20.2</summary>
+			<description lang="en">Estuary Skin modified by KM - KODI 20.2</description>
+			<description lang="ko_KR">Estuary 스킨 수정 by KM - KODI 20.2</description>
 			<disclaimer lang="en">Life is life!</disclaimer>
 			<platform>all</platform>
 			<license>Creative Commons Attribution-ShareAlike 3.0.</license>
