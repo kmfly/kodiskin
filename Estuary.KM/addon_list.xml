@@ -18,10 +18,10 @@
 			<res width="2160" height="1080" aspect="18:9" default="false" folder="xml" />
 		</extension>
 		<extension point="xbmc.addon.metadata">
-			<summary lang="en">KM Estuary Custom SKIN- KODI 20.x</summary>
-			<summary lang="ko_KR">KM Estuary Custom SKIN - KODI 20.x</summary>
-			<description lang="en">KM Estuary Custom SKIN - KODI 20.x</description>
-			<description lang="ko_KR">KM Estuary Custom SKIN - KODI 20.x</description>
+			<summary lang="en">KM Estuary Custom SKIN - KODI 21.x</summary>
+			<summary lang="ko_KR">KM Estuary Custom SKIN - KODI 21.x</summary>
+			<description lang="en">KM Estuary Custom SKIN - KODI 21.x</description>
+			<description lang="ko_KR">KM Estuary Custom SKIN - KODI 21.x</description>
 			<disclaimer lang="en">Love Seyoung/Seojun Forever!</disclaimer>
 			<platform>all</platform>
 			<license>Creative Commons Attribution-ShareAlike 3.0.</license>
