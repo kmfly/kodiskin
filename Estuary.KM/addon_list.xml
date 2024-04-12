@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-	<addon id="skin.estuary.km" version="0.1.4" name="skin.estuary.km" provider-name="KM">
+	<addon id="skin.estuary.km" version="0.1.5" name="skin.estuary.km" provider-name="KM">
 		<requires>
 			<import addon="xbmc.gui" version="5.17.0"/>
 			<import addon="script.embuary.info" version="2.0.8"/>
