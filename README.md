@@ -1,6 +1,6 @@
 # KODI SKIN by KM
 
-### KODI 20.x support
+### KODI 21.x support
 
 >skin.estuary.km
 
