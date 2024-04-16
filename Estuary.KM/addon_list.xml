@@ -3,9 +3,6 @@
 	<addon id="skin.estuary.km" version="0.1.6" name="skin.estuary.km" provider-name="KM">
 		<requires>
 			<import addon="xbmc.gui" version="5.17.0"/>
-			<import addon="script.embuary.info" version="2.0.8"/>
-			<import addon="script.embuary.helper" version="2.0.8"/>
-			<import addon="plugin.video.themoviedb.helper" version="4.10.14"/>
 		</requires>
 		<extension point="xbmc.gui.skin" debugging="false">
 			<res width="1920" height="1440" aspect="4:3" default="false" folder="xml" />
