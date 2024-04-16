@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-	<addon id="skin.destiny.km" name="skin.destiny.km" version="2.2.5" provider-name="KM">
+	<addon id="skin.destiny.km" name="skin.destiny.km" version="2.2.6" provider-name="KM">
 	<requires>
+		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="xbmc.gui" version="5.17.0"/>
-		<import addon="service.upnext" version="1.1.5+matrix.1" />
+		<import addon="service.upnext" version="1.1.9+matrix.1" />
 		<import addon="script.embuary.helper" version="2.0.8" />
-		<import addon="plugin.video.themoviedb.helper" version="0.0.1" />
-		<import addon="plugin.video.youtube" version="6.8.18+matrix.1" />
+		<import addon="plugin.video.themoviedb.helper" version="4.10.14" />
+		<import addon="inputstream.adaptive" version="19.0.0"/>
+		<import addon="plugin.video.youtube" version="7.0.5" />
 	</requires>
 	<extension point="xbmc.gui.skin" debugging="false">
 		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml"/>
@@ -16,7 +18,8 @@
 		<summary lang="ko_KR">skin.destiny.km</summary>
 		<description lang="en">skin.destiny.km</description>
 		<description lang="ko_KR">skin.destiny.km</description>
-		<disclaimer lang="en">Life is life!</disclaimer>
+		<disclaimer lang="en">KM Custom Kodi Skin</disclaimer>
+		<disclaimer lang="ko_KR">KM Custom Kodi Skin</disclaimer>
 		<platform>all</platform>
 		<license>Creative Commons Attribution-ShareAlike 3.0.</license>
 		<forum>https://cafe.naver.com/mk802</forum>
