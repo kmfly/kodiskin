@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-	<addon id="skin.estuary.km" version="0.1.5" name="skin.estuary.km" provider-name="KM">
+	<addon id="skin.estuary.km" version="0.1.6" name="skin.estuary.km" provider-name="KM">
 		<requires>
 			<import addon="xbmc.gui" version="5.17.0"/>
 			<import addon="script.embuary.info" version="2.0.8"/>
@@ -18,11 +18,12 @@
 			<res width="2160" height="1080" aspect="18:9" default="false" folder="xml" />
 		</extension>
 		<extension point="xbmc.addon.metadata">
-			<summary lang="en">KM Estuary Custom SKIN - KODI 21.x</summary>
-			<summary lang="ko_KR">KM Estuary Custom SKIN - KODI 21.x</summary>
-			<description lang="en">KM Estuary Custom SKIN - KODI 21.x</description>
-			<description lang="ko_KR">KM Estuary Custom SKIN - KODI 21.x</description>
-			<disclaimer lang="en">Love Seyoung/Seojun Forever!</disclaimer>
+			<summary lang="en">skin.estuary.km</summary>
+			<summary lang="ko_KR">skin.estuary.km</summary>
+			<description lang="en">skin.estuary.km</description>
+			<description lang="ko_KR">skin.estuary.km</description>
+			<disclaimer lang="en">KM Custom Kodi Skin</disclaimer>
+			<disclaimer lang="ko_KR">KM Custom Kodi Skin</disclaimer>
 			<platform>all</platform>
 			<license>Creative Commons Attribution-ShareAlike 3.0.</license>
 			<source>https://github.com/kmfly/kodiskin</source>
