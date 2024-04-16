@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-	<addon id="skin.destiny.km" name="skin.destiny.km" version="2.2.7" provider-name="KM">
+	<addon id="skin.destiny.km" name="skin.destiny.km" version="2.2.6" provider-name="KM">
 	<requires>
 		<import addon="xbmc.gui" version="5.17.0"/>
 	</requires>
