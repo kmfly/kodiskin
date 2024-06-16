@@ -33,24 +33,27 @@
 
 		</assets>
 	</extension>
- </addon>
-	<addon id="skin.destiny.km" name="KM.Destiny" version="2.2.3" provider-name="KM">
-	<requires>
-		<import addon="xbmc.gui" version="5.15.0"/>
-	    <import addon="service.upnext" version="1.1.5+matrix.1"/>
-		<import addon="script.embuary.helper" version="2.0.8"/>
-		<import addon="plugin.video.themoviedb.helper" version="0.0.1"/>
-		<import addon="plugin.video.youtube" version="6.8.18+matrix.1" />
-	</requires>
-	<extension point="xbmc.gui.skin" debugging="false">
+	</addon>
+	<addon id="skin.destiny.km" name="skin.destiny.km" version="1.3.2" provider-name="KM">
+		<requires>
+		<import addon="xbmc.gui" version="5.17.0" />
+		<import addon="service.upnext" version="1.1.9+matrix.1" />
+		<import addon="script.embuary.helper" version="2.0.8" />
+		<import addon="plugin.video.themoviedb.helper" version="0.0.1" />
+		<import addon="script.module.requests" version="2.27.1"/>
+		<import addon="inputstream.adaptive" version="19.0.0"/>
+		<import addon="plugin.video.youtube" version="7.0.5" />
+		</requires>
+		<extension point="xbmc.gui.skin" debugging="false">
 		<res width="1920" height="1080" aspect="16:9" default="true" folder="xml"/>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<summary lang="en">Destiny Skin by KM</summary>
-		<summary lang="ko_KR">데스트니 스킨 by KM</summary>
-		<description lang="en">Destiny Skin by KM</description>
-		<description lang="ko_KR">데스트니 스킨 by KM</description>
-		<disclaimer lang="en">Life is life!</disclaimer>
+		</extension>
+		<extension point="xbmc.addon.metadata">
+		<summary lang="en">skin.destiny.km</summary>
+		<summary lang="ko_KR">skin.destiny.km</summary>
+		<description lang="en">skin.destiny.km</description>
+		<description lang="ko_KR">skin.destiny.km</description>
+		<disclaimer lang="en">KM Custom Kodi Skin</disclaimer>
+		<disclaimer lang="ko_KR">KM Custom Kodi Skin</disclaimer>
 		<platform>all</platform>
 		<license>Creative Commons Attribution-ShareAlike 3.0.</license>
 		<forum>https://cafe.naver.com/mk802</forum>
@@ -67,9 +70,8 @@
 			<screenshot>resources/7.jpg</screenshot>
 			<screenshot>resources/8.jpg</screenshot>
 			<screenshot>resources/9.jpg</screenshot>
-
 		</assets>
-	</extension>
- </addon>
+		</extension>
+	</addon>	
 
 </addons>
