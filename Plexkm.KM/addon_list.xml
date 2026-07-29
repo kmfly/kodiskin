@@ -21,7 +21,7 @@
                         <license>MIT</license>
                 </extension>
         </addon>
-        <addon id="skin.plex.km" version="1.0.1" name="Plex KM Skin" provider-name="KM">
+        <addon id="skin.plex.km" version="1.0.2" name="Plex KM Skin" provider-name="KM">
                 <requires>
                         <import addon="xbmc.gui" version="5.17.0" />
                 </requires>

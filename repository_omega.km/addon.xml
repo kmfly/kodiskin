@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository_omega.km" name="KM repository for Kodi Skin" version="1.1.5" provider-name="KM">
+<addon id="repository_omega.km" name="KM repository for Kodi" version="1.1.6" provider-name="KM">
 	<requires>
         <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
-	<extension name="KM Repository" point="xbmc.addon.repository">
+	<extension name="KM repository for Kodi" point="xbmc.addon.repository">
 		<dir>
 			<info compressed="false">https://github.com/kmfly/kodiskin/raw/master/Estuary.KM/addon_list.xml</info>
 			<checksum>https://github.com/kmfly/kodiskin/raw/master/Estuary.KM/addon_list.xml.md5</checksum>
@@ -22,8 +22,8 @@
 
 	</extension>
 	<extension point="xbmc.addon.metadata">
-		<summary>KODI(Omega) Repository by KM</summary>
-		<description>KODI(Omega) Repository by KM</description>
+		<summary>KM repository for Kodi</summary>
+		<description>KM repository for Kodi</description>
 		<platform>all</platform>
 		<assets>
 			<icon>icon.png</icon>
