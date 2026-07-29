@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <addons>
-        <addon id="plugin.video.plex_km" name="Plex KM" version="1.0.2" provider-name="KM">
+        <addon id="plugin.video.km" name="plugin.video.km" version="1.0.0" provider-name="plugin.video.km">
                 <requires>
                         <import addon="xbmc.python" version="3.0.0" />
                 </requires>
@@ -16,12 +16,12 @@
                         <platform>all</platform>
                         <source>https://github.com/kmfly/Plexkm.KM</source>
                         <assets>
-                                <icon>icon.png</icon>
+                                <icon>resources/plexkm_icon_512.png</icon>
                         </assets>
                         <license>MIT</license>
                 </extension>
         </addon>
-        <addon id="skin.plex.km" version="1.0.2" name="Plex KM Skin" provider-name="KM">
+        <addon id="skin.plex.km" version="1.0.3" name="skin.plex.km" provider-name="skin.plex.km">
                 <requires>
                         <import addon="xbmc.gui" version="5.17.0" />
                 </requires>
@@ -41,7 +41,7 @@
                         <forum>http://forum.kodi.tv/</forum>
                         <source>https://github.com/kmfly/Plexkm.KM</source>
                         <assets>
-                                <icon>resources/icon.png</icon>
+                                <icon>resources/plexkm_icon_512.png</icon>
                                 <fanart>resources/fanart.jpg</fanart>
                                 <screenshot>resources/screenshot-01.jpg</screenshot>
                                 <screenshot>resources/screenshot-02.jpg</screenshot>
