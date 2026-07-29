@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.plexkm.km"
+       name="Plexkm.KM Repository"
+       version="1.0.0"
+       provider-name="KM">
+    <extension point="xbmc.addon.repository"
+               name="Plexkm.KM Repository">
+        <dir minversion="21.0.0">
+            <info compressed="false">https://raw.githubusercontent.com/kmfly/kodiskin/master/Plexkm.KM/addon_list.xml</info>
+            <checksum>https://raw.githubusercontent.com/kmfly/kodiskin/master/Plexkm.KM/addon_list.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/kmfly/kodiskin/master/Plexkm.KM/zip/</datadir>
+            <hashes>false</hashes>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en_GB">Plex KM add-on repository for Kodi</summary>
+        <summary lang="ko_KR">Kodi용 Plex KM 애드온 저장소</summary>
+        <description lang="en_GB">Install and update Plex KM and Plex KM Skin.</description>
+        <description lang="ko_KR">Plex KM과 Plex KM Skin을 설치하고 업데이트합니다.</description>
+        <platform>all</platform>
+        <source>https://github.com/kmfly/kodiskin</source>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>

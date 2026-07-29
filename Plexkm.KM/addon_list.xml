@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <addons>
-        <addon id="plugin.video.plex_km" name="Plex KM" version="1.0.0" provider-name="KM">
+        <addon id="plugin.video.plex_km" name="Plex KM" version="1.0.1" provider-name="KM">
                 <requires>
                         <import addon="xbmc.python" version="3.0.0" />
                 </requires>
@@ -21,10 +21,9 @@
                         <license>MIT</license>
                 </extension>
         </addon>
-        <addon id="skin.plex.km" version="1.0.0" name="Plex KM Skin" provider-name="KM">
+        <addon id="skin.plex.km" version="1.0.1" name="Plex KM Skin" provider-name="KM">
                 <requires>
                         <import addon="xbmc.gui" version="5.17.0" />
-                        <import addon="plugin.video.plex_km" version="1.0.0" />
                 </requires>
                 <extension point="xbmc.gui.skin" debugging="false">
                         <res width="1920" height="1440" aspect="4:3" default="false" folder="xml" />
@@ -206,6 +205,28 @@
                         <disclaimer lang="vi_VN">Estuary là giao diện mặc định cho Kodi, loại bỏ nó có thể gây ra sự cố</disclaimer>
                         <disclaimer lang="zh_CN">Estuary 是 Kodi 的默认皮肤，删除它可能导致故障。</disclaimer>
                         <disclaimer lang="zh_TW">Estuary 是 Kodi 預設的佈景主題，移除它可能會造成問題</disclaimer>
+                </extension>
+        </addon>
+        <addon id="repository.plexkm.km" name="Plexkm.KM Repository" version="1.0.0" provider-name="KM">
+                <extension point="xbmc.addon.repository" name="Plexkm.KM Repository">
+                        <dir minversion="21.0.0">
+                                <info compressed="false">https://raw.githubusercontent.com/kmfly/kodiskin/master/Plexkm.KM/addon_list.xml</info>
+                                <checksum>https://raw.githubusercontent.com/kmfly/kodiskin/master/Plexkm.KM/addon_list.xml.md5</checksum>
+                                <datadir zip="true">https://raw.githubusercontent.com/kmfly/kodiskin/master/Plexkm.KM/zip/</datadir>
+                                <hashes>false</hashes>
+                        </dir>
+                </extension>
+                <extension point="xbmc.addon.metadata">
+                        <summary lang="en_GB">Plex KM add-on repository for Kodi</summary>
+                        <summary lang="ko_KR">Kodi용 Plex KM 애드온 저장소</summary>
+                        <description lang="en_GB">Install and update Plex KM and Plex KM Skin.</description>
+                        <description lang="ko_KR">Plex KM과 Plex KM Skin을 설치하고 업데이트합니다.</description>
+                        <platform>all</platform>
+                        <source>https://github.com/kmfly/kodiskin</source>
+                        <assets>
+                                <icon>icon.png</icon>
+                                <fanart>fanart.jpg</fanart>
+                        </assets>
                 </extension>
         </addon>
 </addons>
