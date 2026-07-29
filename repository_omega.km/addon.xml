@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="repository_omega.km" name="KM repository for Kodi" version="1.1.6" provider-name="KM">
+<addon id="repository_omega.km" name="KM repository for Kodi" version="1.1.7" provider-name="KM repository for Kodi">
 	<requires>
         <import addon="xbmc.addon" version="12.0.0"/>
     </requires>
