@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.km" name="plugin.video.km" version="1.0.0" provider-name="plugin.video.km">
+<addon id="plugin.video.km" name="plugin.video.km" version="1.0.1" provider-name="plugin.video.km">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 	</requires>
