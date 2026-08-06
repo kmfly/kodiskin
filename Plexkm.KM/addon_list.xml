@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.km" name="plugin.video.km" version="1.0.2" provider-name="plugin.video.km">
+<addon id="plugin.video.km" name="plugin.video.km" version="1.0.3" provider-name="plugin.video.km">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 	</requires>
@@ -21,7 +21,7 @@
 		<license>MIT</license>
 	</extension>
 </addon>
-<addon id="skin.plex.km" version="1.0.5" name="skin.plex.km" provider-name="skin.plex.km">
+<addon id="skin.plex.km" version="1.0.6" name="skin.plex.km" provider-name="skin.plex.km">
 	<requires>
 		<import addon="xbmc.gui" version="5.17.0" />
 	</requires>
