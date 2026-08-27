@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.km" name="plugin.video.km" version="1.0.11" provider-name="plugin.video.km">
+<addon id="plugin.video.km" name="plugin.video.km" version="1.0.15" provider-name="plugin.video.km">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.pil" version="5.1.0" />
+		<import addon="service.pkm.ratings" version="0.1.0" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
@@ -207,5 +208,17 @@
 		<disclaimer lang="zh_CN">Estuary 是 Kodi 的默认皮肤，删除它可能导致故障。</disclaimer>
 		<disclaimer lang="zh_TW">Estuary 是 Kodi 預設的佈景主題，移除它可能會造成問題</disclaimer>
 	</extension>
+</addon>
+<addon id="service.pkm.ratings" name="PKM Ratings Service" version="0.1.0" provider-name="PKM">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.service" library="service.py" start="startup"/>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="ko_KR">PKM Cine21 / Watcha Master DB 자동 동기화</summary>
+        <description lang="ko_KR">PKM-Ratings GitHub manifest를 확인해 평점 Master DB를 자동 다운로드하고 검증합니다.</description>
+        <platform>all</platform>
+        <license>MIT</license>
+    </extension>
 </addon>
 </addons>
