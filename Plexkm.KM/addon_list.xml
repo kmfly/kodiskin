@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.km" name="plugin.video.km" version="1.0.15" provider-name="plugin.video.km">
+<addon id="plugin.video.km" name="plugin.video.km" version="1.0.16" provider-name="plugin.video.km">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0" />
 		<import addon="script.module.pil" version="5.1.0" />
-		<import addon="service.pkm.ratings" version="0.1.0" />
+		<import addon="service.pkm.ratings" version="0.1.1" />
 	</requires>
 	<extension point="xbmc.python.pluginsource" library="default.py">
 		<provides>video</provides>
@@ -209,7 +209,7 @@
 		<disclaimer lang="zh_TW">Estuary 是 Kodi 預設的佈景主題，移除它可能會造成問題</disclaimer>
 	</extension>
 </addon>
-<addon id="service.pkm.ratings" name="PKM Ratings Service" version="0.1.0" provider-name="PKM">
+<addon id="service.pkm.ratings" name="PKM Ratings Service" version="0.1.1" provider-name="PKM">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
     </requires>
