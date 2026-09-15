@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.km" name="plugin.video.km" version="1.0.25" provider-name="plugin.video.km">
+<addon id="plugin.video.km" name="plugin.video.km" version="1.0.26" provider-name="plugin.video.km">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.pil" version="5.1.0" />
         <import addon="service.pkm.ratings" version="0.1.2" />
+        <import addon="plugin.video.themoviedb.helper" version="5.4.16" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
         <provides>video</provides>
@@ -38,10 +39,10 @@
         <license>MIT</license>
     </extension>
 </addon>
-<addon id="skin.plex.km" version="1.0.20" name="skin.plex.km" provider-name="skin.plex.km">
+<addon id="skin.plex.km" version="1.0.21" name="skin.plex.km" provider-name="skin.plex.km">
     <requires>
         <import addon="xbmc.gui" version="5.17.0" />
-        <import addon="plugin.video.km" version="1.0.25" />
+        <import addon="plugin.video.km" version="1.0.26" />
     </requires>
     <extension point="xbmc.gui.skin" debugging="false">
         <res width="1920" height="1440" aspect="4:3" default="false" folder="xml" />
