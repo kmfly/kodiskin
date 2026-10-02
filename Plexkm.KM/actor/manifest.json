@@ -1,0 +1,11 @@
+{
+  "schema": 1,
+  "updated_at": "2026-10-02T12:46:24Z",
+  "actor": {
+    "version": "2026-10-02T12:46:24Z",
+    "filename": "actor_ko_master.db",
+    "size": 30003200,
+    "sha256": "8e09f8dff4a06c5509dc8bbd017a8c2ba520be928e9545851a76d67b78453c9f",
+    "url": "https://raw.githubusercontent.com/kmfly/kodiskin/master/Plexkm.KM/actor/actor_ko_master.db"
+  }
+}
