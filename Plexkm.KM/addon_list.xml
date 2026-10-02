@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<addons>
-<addon id="plugin.video.km" name="plugin.video.km" version="1.0.73" provider-name="plugin.video.km">
+<?xml version='1.0' encoding='utf-8'?>
+<addons><addon id="plugin.video.km" name="plugin.video.km" version="1.0.74" provider-name="plugin.video.km">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.pil" version="5.1.0" />
         <import addon="service.pkm.ratings" version="0.1.2" />
+        <import addon="service.pkm.actor" version="0.1.0" />
         <import addon="plugin.video.themoviedb.helper" version="5.4.16" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
@@ -23,8 +23,7 @@
         </assets>
         <license>MIT</license>
     </extension>
-</addon>
-<addon id="service.pkm.ratings" name="PKM Ratings Service" version="0.1.2" provider-name="PKM">
+</addon><addon id="service.pkm.ratings" name="PKM Ratings Service" version="0.1.2" provider-name="PKM">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
     </requires>
@@ -38,8 +37,26 @@
         <platform>all</platform>
         <license>MIT</license>
     </extension>
-</addon>
-<addon id="skin.plex.km" version="1.0.68" name="skin.plex.km" provider-name="KM">
+</addon><addon id="service.pkm.actor" name="PKM Actor Service" version="0.1.0" provider-name="KM">
+
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+    </requires>
+
+    <extension point="xbmc.service" library="service.py" start="startup" />
+
+    <extension point="xbmc.addon.metadata">
+        <assets>
+            <icon>icon.png</icon>
+        </assets>
+
+        <summary lang="ko_KR">PKM 배우 Master DB 자동 동기화</summary>
+        <description lang="ko_KR">PKM Actor Master DB를 자동 다운로드하고 검증하여 최신 상태로 유지합니다.</description>
+
+        <platform>all</platform>
+        <license>MIT</license>
+    </extension>
+</addon><addon id="skin.plex.km" version="1.0.68" name="skin.plex.km" provider-name="KM">
     <requires>
         <import addon="xbmc.gui" version="5.17.0" />
         <import addon="plugin.video.km" version="1.0.73" />
@@ -174,5 +191,4 @@
         <description lang="zh_CN">Estuary 是 Kodi 17.0 的默认皮肤。它力求使首次使用 Kodi 的用户易于上手。</description>
         <description lang="zh_TW">Estuary是Kodi 17.0開始搭載的預設佈景主題。主要在讓第一次使用 Kodi 的使用者可以簡單地上手。</description>
     </extension>
-</addon>
-</addons>
+</addon></addons>
