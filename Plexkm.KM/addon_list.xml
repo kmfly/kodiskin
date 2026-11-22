@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.km" name="plugin.video.km" version="1.0.298" provider-name="plugin.video.km">
+<addon id="plugin.video.km" name="plugin.video.km" version="1.0.299" provider-name="plugin.video.km">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.pil" version="5.1.0" />
@@ -14,9 +14,9 @@
     <extension point="xbmc.service" library="service.py" start="startup" />
 <extension point="xbmc.addon.metadata">
         <summary lang="en_GB">Plex library browser for KM skin</summary>
-        <summary lang="ko_KR">Plex KM에 사용되는 애드온입니다.</summary>
+        <summary lang="ko_KR">PlexKM에 사용되는 애드온입니다.</summary>
         <description lang="en_GB">Reads Plex libraries, caches metadata/artwork locally, and exposes fast plugin:// lists for Kodi skins.</description>
-        <description lang="ko_KR">Plex KM에 사용되는 애드온입니다.</description>
+        <description lang="ko_KR">PlexKM에 사용되는 애드온입니다.</description>
         <platform>all</platform>
         <source>https://github.com/kmfly/Plexkm.KM</source>
         <assets>
@@ -25,7 +25,7 @@
         <license>MIT</license>
     </extension>
 </addon>
-<addon id="service.pkm.ratings" name="PKM Ratings Service" version="0.1.141" provider-name="PKM">
+<addon id="service.pkm.ratings" name="PKM Ratings Service" version="0.1.142" provider-name="PKM">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
     </requires>
@@ -34,13 +34,13 @@
         <assets>
             <icon>icon.png</icon>
         </assets>
-        <summary lang="ko_KR">PKM Cine21 / Watcha Master DB 자동 동기화</summary>
-        <description lang="ko_KR">PKM-Ratings GitHub manifest를 확인해 평점 Master DB를 자동 다운로드하고 검증합니다.</description>
+        <summary lang="ko_KR">PlexKM Cine21 / Watcha Master DB 자동 동기화</summary>
+        <description lang="ko_KR">PlexKM-Ratings GitHub manifest를 확인해 평점 Master DB를 자동 다운로드하고 검증합니다.</description>
         <platform>all</platform>
         <license>MIT</license>
     </extension>
 </addon>
-<addon id="skin.plex.km" version="1.0.231" name="skin.plex.km" provider-name="KM">
+<addon id="skin.plex.km" version="1.0.232" name="skin.plex.km" provider-name="KM">
     <requires>
         <import addon="xbmc.gui" version="5.17.0" />
         <import addon="plugin.video.km" version="1.0.226" />
@@ -81,9 +81,9 @@
         <summary lang="da_DK">Estuary skin af phil65 (Kodis standard brugerflade)</summary>
         <summary lang="de_DE">Estuary Skin von phil65. (Kodi-Standardskin)</summary>
         <summary lang="el_GR">Το κέλυφος Estuary από τον phil65 και τον Pier. (προεπιλεγμένο κέλυφος του Kodi)</summary>
-        <summary lang="en_GB">This is the skin used by Plex KM.</summary>
+        <summary lang="en_GB">This is the skin used by PlexKM.</summary>
         <summary lang="en_NZ">Estuary skin by phil65 and Piers. (Kodi's default skin)</summary>
-        <summary lang="en_US">This is the skin used by Plex KM.</summary>
+        <summary lang="en_US">This is the skin used by PlexKM.</summary>
         <summary lang="es_AR">Skin Estuary por phil65 (skin por defecto de Kodi)</summary>
         <summary lang="es_ES">Skin Estuary por phil65. (skin por defecto de Kodi)</summary>
         <summary lang="es_MX">Máscara Estuary por phil65 y Piers. (La máscara predeterminada de Kodi)</summary>
@@ -101,7 +101,7 @@
         <summary lang="is_IS">Estuary-skinnið eftir phil65. (sjálfgefið útlit Kodi)</summary>
         <summary lang="it_IT">Skin Estuary di phil65. (Skin predefinita di Kodi)</summary>
         <summary lang="ja_JP">Estuaryスキン by phil65 and Piers (Kodi デフォルトスキン)</summary>
-        <summary lang="ko_KR">Plex KM에 사용되는 스킨입니다.</summary>
+        <summary lang="ko_KR">PlexKM에 사용되는 스킨입니다.</summary>
         <summary lang="lt_LT">Estuary teminė išvaizda, kurią sukūrė phil65 ir Piers. (Numatytoji Kodi teminė išvaizda)</summary>
         <summary lang="lv_LV">Estuary apvalks no phil65. (Kodi noklusējuma apvalks)</summary>
         <summary lang="mk_MK">Estuary skin by phil65. (Kodi's default skin)</summary>
@@ -133,9 +133,9 @@
         <description lang="da_DK">Estuary er standardbrugerfladen for Kodi 17.0 og højere. Det forenkler førstegangsbrugen af Kodi ved at gøre det nemmere at forstå og bruge.</description>
         <description lang="de_DE">Estuary ist der Standardskin für Kodi 17.0 und höher. Ziel war es, einen einfach zu bedienenden Skin für neue Kodi-Benutzer zu entwickeln.</description>
         <description lang="el_GR">Το Estuary είναι η προεπιλεγμένη αμφίεση για τις εκδόσεις Kodi 17.0 και άνω. Επιχειρεί να είναι προσιτό στους αρχάριους χρήστες του Kodi για να το κατανοήσουν και να το χρησιμοποιήσουν.</description>
-        <description lang="en_GB">This is the skin used by Plex KM.</description>
+        <description lang="en_GB">This is the skin used by PlexKM.</description>
         <description lang="en_NZ">Estuary is the default skin for Kodi 17.0 and above. It attempts to be easy for first time Kodi users to understand and use.</description>
-        <description lang="en_US">This is the skin used by Plex KM.</description>
+        <description lang="en_US">This is the skin used by PlexKM.</description>
         <description lang="es_AR">Estuary es el skin por defecto para Kodi 17.0 y posteriores. Intenta ser fácil de entender y utilizar para los usuarios Kodi primerizos.</description>
         <description lang="es_ES">Estuary es el skin por defecto para Kodi 17.0 o superior. Su objetivo es la facilidad de comprensión y uso para usuarios primerizos de Kodi.</description>
         <description lang="es_MX">Estuary es la máscara por defecto para Kodi 17.0 y superior. Su objetivo es ser fácil de entender y usar para los usuarios nuevos a Kodi.</description>
@@ -153,7 +153,7 @@
         <description lang="is_IS">Estuary er sjálfgefið skinn fyrir Kodi 17.0 og nýrri. Með því á að vera auðvelt fyrir fyrsta-skiptis Kodi-notendur að skilja og nota viðmótið.</description>
         <description lang="it_IT">Estuary è la skin predefinita di Kodi 17.0 e successivi. Cerca di essere facile da capire e da usare per chi si avvicina per la prima volta a Kodi.</description>
         <description lang="ja_JP">EstuaryはKodi 17.0およびそれ以上のバージョンで標準のスキンです。ユーザーが初めてKodiに触れる際にわかりやすく使えるようにしてあります。</description>
-        <description lang="ko_KR">Plex KM에 사용되는 스킨입니다.</description>
+        <description lang="ko_KR">PlexKM에 사용되는 스킨입니다.</description>
         <description lang="lt_LT">Estuary yra numatytoji Kodi 17.0 ir aukštesnių versijų teminė išvaizda. Jos tikslas yra būti lengvai perprantama naujiems Kodi vartotojams.</description>
         <description lang="ms_MY">Estuary ialah kulit lalai untuk Kodi 17.0 dan ke atas. Kulit yang mudah digunakan buat pengguna Kodi kali pertama untuk memahami dan menggunakannya.</description>
         <description lang="nb_NO">Estuary er forvalgt drakt til Kodi 17.0 og nyere. Det tar mål av seg å være en enkel drakt for førstegangsbrukere av Kodi, slik at det er til å forstå og kan brukes.</description>
@@ -176,7 +176,7 @@
         <description lang="zh_TW">Estuary是Kodi 17.0開始搭載的預設佈景主題。主要在讓第一次使用 Kodi 的使用者可以簡單地上手。</description>
     </extension>
 </addon>
-<addon id="service.pkm.actor" name="PKM Actor Service" version="0.1.139" provider-name="KM">
+<addon id="service.pkm.actor" name="PKM Actor Service" version="0.1.140" provider-name="KM">
 
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
@@ -189,8 +189,8 @@
             <icon>icon.png</icon>
         </assets>
 
-        <summary lang="ko_KR">PKM 배우 Master DB 자동 동기화</summary>
-        <description lang="ko_KR">PKM Actor Master DB를 자동 다운로드하고 검증하여 최신 상태로 유지합니다.</description>
+        <summary lang="ko_KR">PlexKM 배우 Master DB 자동 동기화</summary>
+        <description lang="ko_KR">PlexKM Actor Master DB를 자동 다운로드하고 검증하여 최신 상태로 유지합니다.</description>
 
         <platform>all</platform>
         <license>MIT</license>
