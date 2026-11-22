@@ -40,7 +40,7 @@
         <license>MIT</license>
     </extension>
 </addon>
-<addon id="skin.plex.km" version="1.0.228" name="skin.plex.km" provider-name="KM">
+<addon id="skin.plex.km" version="1.0.229" name="skin.plex.km" provider-name="KM">
     <requires>
         <import addon="xbmc.gui" version="5.17.0" />
         <import addon="plugin.video.km" version="1.0.226" />
