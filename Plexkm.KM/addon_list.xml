@@ -196,4 +196,20 @@
         <license>MIT</license>
     </extension>
 </addon>
+<addon id="script.pkm.setup" name="PKM 설치 도우미" version="0.1.0" provider-name="KM">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+    </requires>
+    <extension point="xbmc.python.script" library="default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="ko_KR">PKM 설치 도우미</summary>
+        <description lang="ko_KR">PKM 플러그인과 스킨 설치, 선택 키 입력, Plex 연결, 취향 선택, 스킨 전환까지 한 번에 안내합니다.</description>
+        <platform>all</platform>
+        <assets>
+            <icon>resources/icon.png</icon>
+        </assets>
+    </extension>
+</addon>
 </addons>
