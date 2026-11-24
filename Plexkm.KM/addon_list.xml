@@ -212,7 +212,7 @@
         </assets>
     </extension>
 </addon>
-<addon id="repository.km" name="KM 저장소" version="1.0.1" provider-name="KM">
+<addon id="repository.km" name="KM 저장소" version="1.0.2" provider-name="KM">
 	<requires>
 		<import addon="xbmc.addon" version="12.0.0" />
 	</requires>
@@ -235,7 +235,7 @@
 	</extension>
 	<extension point="xbmc.addon.metadata">
 		<summary lang="ko_KR">KM 저장소</summary>
-		<description lang="ko_KR">PKM 설치 도우미, PKM 플러그인과 스킨, Estuary.KM, Destiny.KM 스킨을 받을 수 있는 저장소입니다.</description>
+		<description lang="ko_KR">Estuary.KM, Destiny.KM 스킨 제작자 KM의 저장소입니다. PlexKM 스킨과 PKM 애드온도 제공합니다.</description>
 		<platform>all</platform>
 		<assets>
 			<icon>icon.png</icon>
