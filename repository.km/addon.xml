@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<addon id="repository.km" name="KM 저장소" version="1.0.0" provider-name="KM">
+<addon id="repository.km" name="KM 저장소" version="1.0.1" provider-name="KM">
 	<requires>
 		<import addon="xbmc.addon" version="12.0.0" />
 	</requires>
