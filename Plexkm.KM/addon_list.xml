@@ -196,7 +196,7 @@
         <license>MIT</license>
     </extension>
 </addon>
-<addon id="script.pkm.setup" name="PKM 설치 도우미" version="0.1.0" provider-name="KM">
+<addon id="script.pkm.setup" name="PKM 설치 도우미" version="0.1.1" provider-name="KM">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
     </requires>
@@ -209,6 +209,10 @@
         <platform>all</platform>
         <assets>
             <icon>resources/icon.png</icon>
+            <fanart>resources/fanart.jpg</fanart>
+            <screenshot>resources/screenshot-01.jpg</screenshot>
+            <screenshot>resources/screenshot-02.jpg</screenshot>
+            <screenshot>resources/screenshot-03.jpg</screenshot>
         </assets>
     </extension>
 </addon>
