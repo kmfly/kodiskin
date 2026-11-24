@@ -216,7 +216,7 @@
         </assets>
     </extension>
 </addon>
-<addon id="repository.km" name="KM 저장소" version="1.0.2" provider-name="KM">
+<addon id="repository.km" name="KM 저장소" version="1.0.3" provider-name="KM">
 	<requires>
 		<import addon="xbmc.addon" version="12.0.0" />
 	</requires>
