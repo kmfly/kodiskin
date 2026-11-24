@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<addon id="repository.km" name="KM 저장소" version="1.0.0" provider-name="KM">
+	<requires>
+		<import addon="xbmc.addon" version="12.0.0" />
+	</requires>
+	<extension name="KM 저장소" point="xbmc.addon.repository">
+		<dir>
+			<info compressed="false">https://github.com/kmfly/kodiskin/raw/master/Estuary.KM/addon_list.xml</info>
+			<checksum>https://github.com/kmfly/kodiskin/raw/master/Estuary.KM/addon_list.xml.md5</checksum>
+			<datadir zip="true">https://github.com/kmfly/kodiskin/raw/master/Estuary.KM/zip</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://github.com/kmfly/kodiskin/raw/master/Destiny.KM/addon_list.xml</info>
+			<checksum>https://github.com/kmfly/kodiskin/raw/master/Destiny.KM/addon_list.xml.md5</checksum>
+			<datadir zip="true">https://github.com/kmfly/kodiskin/raw/master/Destiny.KM/zip</datadir>
+		</dir>
+		<dir>
+			<info compressed="false">https://github.com/kmfly/kodiskin/raw/master/Plexkm.KM/addon_list.xml</info>
+			<checksum>https://github.com/kmfly/kodiskin/raw/master/Plexkm.KM/addon_list.xml.md5</checksum>
+			<datadir zip="true">https://github.com/kmfly/kodiskin/raw/master/Plexkm.KM/zip</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary lang="ko_KR">KM 저장소</summary>
+		<description lang="ko_KR">PKM 설치 도우미, PKM 플러그인과 스킨, Estuary.KM, Destiny.KM 스킨을 받을 수 있는 저장소입니다.</description>
+		<platform>all</platform>
+		<assets>
+			<icon>icon.png</icon>
+		</assets>
+	</extension>
+</addon>
