@@ -196,7 +196,7 @@
         <license>MIT</license>
     </extension>
 </addon>
-<addon id="script.pkm.setup" name="PlexKM 설치 도우미" version="0.1.25" provider-name="KM">
+<addon id="script.pkm.setup" name="PlexKM 설치 도우미" version="0.1.26" provider-name="KM">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
     </requires>
