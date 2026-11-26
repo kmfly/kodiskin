@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.km" name="plugin.video.km" version="1.0.427" provider-name="plugin.video.km">
+<addon id="plugin.video.km" name="plugin.video.km" version="1.0.428" provider-name="plugin.video.km">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.pil" version="5.1.0" />
@@ -196,7 +196,7 @@
         <license>MIT</license>
     </extension>
 </addon>
-<addon id="script.pkm.setup" name="PlexKM 설치 도우미" version="0.1.28" provider-name="KM">
+<addon id="script.pkm.setup" name="PlexKM 설치 도우미" version="0.1.29" provider-name="KM">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
     </requires>
