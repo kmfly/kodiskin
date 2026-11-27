@@ -247,4 +247,16 @@
 		</assets>
 	</extension>
 </addon>
+<addon id="script.module.pkm.musicagent" name="PlexKM 뮤직 에이전트" version="0.2.1" provider-name="KM">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0" />
+    </requires>
+    <extension point="xbmc.python.module" library="lib" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="ko_KR">PlexKM 뮤직비디오, 음악방송, 콘서트, 음악 파일 정보 에이전트</summary>
+        <description lang="ko_KR">PlexKM을 설치하면 함께 설치되는 구성 요소입니다. 영상·음악 폴더와 파일 이름, 태그에서 아티스트, 제목, 방송일을 읽고 포스터와 정보를 영화처럼 보여주기 위한 색인을 만듭니다.</description>
+        <platform>all</platform>
+        <license>GPL-2.0-or-later</license>
+    </extension>
+</addon>
 </addons>
