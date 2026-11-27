@@ -248,7 +248,7 @@
 		</assets>
 	</extension>
 </addon>
-<addon id="script.module.pkm.musicagent" name="PlexKM 뮤직 에이전트" version="0.3.0" provider-name="KM">
+<addon id="script.module.pkm.musicagent" name="PlexKM 뮤직 에이전트" version="0.3.1" provider-name="KM">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
     </requires>
