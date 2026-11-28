@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <addons>
-<addon id="plugin.video.km" name="plugin.video.km" version="1.0.445" provider-name="plugin.video.km">
+<addon id="plugin.video.km" name="plugin.video.km" version="1.0.448" provider-name="plugin.video.km">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
         <import addon="script.module.pil" version="5.1.0" />
         <import addon="service.pkm.ratings" version="0.1.141" />
         <import addon="service.pkm.actor" version="0.1.139" />
-        <import addon="script.module.pkm.musicagent" version="0.5.0" optional="true" />
+        <import addon="script.module.pkm.musicagent" version="0.5.0" />
         <import addon="plugin.video.themoviedb.helper" version="5.4.16" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="default.py">
@@ -41,7 +41,7 @@
         <license>MIT</license>
     </extension>
 </addon>
-<addon id="skin.plex.km" version="1.0.244" name="skin.plex.km" provider-name="KM">
+<addon id="skin.plex.km" version="1.0.245" name="skin.plex.km" provider-name="KM">
     <requires>
         <import addon="xbmc.gui" version="5.17.0" />
         <import addon="plugin.video.km" version="1.0.226" />
@@ -197,7 +197,7 @@
         <license>MIT</license>
     </extension>
 </addon>
-<addon id="script.pkm.setup" name="PlexKM 설치 도우미" version="0.1.33" provider-name="KM">
+<addon id="script.pkm.setup" name="PlexKM 설치 도우미" version="0.1.35" provider-name="KM">
     <requires>
         <import addon="xbmc.python" version="3.0.0" />
     </requires>
